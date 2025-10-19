@@ -69,7 +69,7 @@ function Hero() {
           </div>
         </div>
         <div>
-          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop" alt="avatar" className="hero-img"/>
+          <img src="/photo.jpg" alt="avatar" className="hero-img"/>
         </div>
       </div>
     </section>
