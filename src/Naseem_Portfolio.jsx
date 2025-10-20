@@ -26,7 +26,7 @@ const PROJECTS = [
     title: 'Personal Meal Tracker & AI Diet Coach', 
     desc: 'Web app providing instant nutrition facts for meals with AI chatbot for personalized diet guidance.', 
     tech: ['JavaScript', 'HTML', 'CSS', 'API Integration'], 
-    demo: 'nutritrackai-puce.vercel.app', 
+      demo: 'https://nutritrackai-puce.vercel.app',
     repo: 'https://github.com/mubashir-02/NutriTrack-AI' 
   },
   
