@@ -24,19 +24,12 @@ const PROJECTS = [
   { 
     id: 3, 
     title: 'Personal Meal Tracker & AI Diet Coach', 
-    desc: 'Web application to log meals with calories, protein, fat, images, and notes. Integrated CalorieNinjas API for nutrition data and Unsplash API for food images with AI diet coach.', 
-    tech: ['JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'API Integration'], 
+    desc: 'A web application that gives instant nutrition facts for any meal and features an AI chatbot for personalized diet guidance..', 
+    tech: ['JavaScript', 'HTML', 'CSS', 'API Integration'], 
     demo: '#', 
     repo: '#' 
   },
-  { 
-    id: 4, 
-    title: 'CRUD Operations', 
-    desc: 'Implemented full CRUD operations (Create, Read, Update, Delete) on MongoDB collections using Node.js and Express.js with efficient data management and schema design.', 
-    tech: ['Node.js', 'Express.js', 'MongoDB', 'JavaScript'], 
-    demo: '#', 
-    repo: '#' 
-  }
+  
 ];
 
 const SKILLS = {
