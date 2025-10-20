@@ -8,7 +8,7 @@ const PROJECTS = [
   { 
     id: 1, 
     title: 'WanderLust', 
-    desc: 'Full-stack travel listing app with secure authentication using Passport.js and Express-Session. Implemented CRUD for listings and reviews with Joi validation and custom error handling.', 
+    desc: 'Full-stack travel listing app with secure authentication and CRUD operations for listings and reviews.', 
     tech: ['Node.js', 'Express.js', 'MongoDB', 'EJS', 'Passport.js'], 
     demo: '#', 
     repo: '#' 
@@ -16,7 +16,7 @@ const PROJECTS = [
   { 
     id: 2, 
     title: 'Lost and Found', 
-    desc: 'Full-stack platform where users can post lost items with descriptions and images. Users can comment on or claim found items, creating an interactive community-driven system.', 
+    desc: 'Community-driven platform for posting lost items with interactive features for claiming and commenting.', 
     tech: ['JavaScript', 'Node.js', 'Express.js', 'EJS', 'MongoDB', 'CSS'], 
     demo: '#', 
     repo: '#' 
@@ -24,7 +24,7 @@ const PROJECTS = [
   { 
     id: 3, 
     title: 'Personal Meal Tracker & AI Diet Coach', 
-    desc: 'A web application that gives instant nutrition facts for any meal and features an AI chatbot for personalized diet guidance..', 
+    desc: 'Web app providing instant nutrition facts for meals with AI chatbot for personalized diet guidance.', 
     tech: ['JavaScript', 'HTML', 'CSS', 'API Integration'], 
     demo: '#', 
     repo: '#' 
