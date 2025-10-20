@@ -257,8 +257,8 @@ function Contact() {
         <div className="contact-content">
           <div className="contact-info">
             <h4>📧 Email</h4>
-            <p><a href="mailto:mubashirnaseem18@gmail.com">mubashirnaseem18@gmail.com</a></p>
-            <p><a href="https://www.linkedin.com/in/muhammadmubashir-naseem-813910323/" target="_blank" rel="noopener noreferrer">LinkedIn Profile ↗</a></p>
+            <p><a className="contact-action" href="mailto:mubashirnaseem18@gmail.com">mubashirnaseem18@gmail.com</a></p>
+            <p><a className="contact-action" href="https://www.linkedin.com/in/muhammadmubashir-naseem-813910323/" target="_blank" rel="noopener noreferrer">LinkedIn Profile ↗</a></p>
             
             <h4>📍 Location</h4>
             <p>Chennai, India</p>
