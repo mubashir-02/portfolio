@@ -65,7 +65,7 @@ function Hero() {
           <p>SRMIST student passionate about web apps. Experienced in HTML, CSS, JS, NodeJS, ExpressJS, MongoDB, Java, C.</p>
           <div className="hero-buttons">
             <button onClick={() => navigate('/projects')}>View Projects</button>
-            <a href="/resume.pdf" download>Download Resume</a>
+            <a href="/Naseem_Resume.pdf" download>Download Resume</a>
           </div>
         </div>
         <div>
