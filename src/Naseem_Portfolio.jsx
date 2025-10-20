@@ -199,8 +199,16 @@ function ProjectCard({ project }) {
         ))}
       </div>
       <div className="project-links">
-        <a href={project.demo} target="_blank" rel="noopener noreferrer">Demo</a>
-        <a href={project.repo} target="_blank" rel="noopener noreferrer">GitHub</a>
+        {project.demo ? (
+          <a href={project.demo} target="_blank" rel="noopener noreferrer">Demo</a>
+        ) : (
+          <span className="coming-soon">Coming Soon</span>
+        )}
+        {project.repo ? (
+          <a href={project.repo} target="_blank" rel="noopener noreferrer">GitHub</a>
+        ) : (
+          <span className="private-repo">Private Repo</span>
+        )}
       </div>
     </div>
   );

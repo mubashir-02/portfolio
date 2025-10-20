@@ -633,6 +633,18 @@ body {
   box-shadow: 0 5px 15px rgba(0, 212, 255, 0.3);
 }
 
+.coming-soon, .private-repo {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: var(--surface-light);
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
 /* CONTACT */
 .contact-form {
   display: flex;
