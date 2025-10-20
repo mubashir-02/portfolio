@@ -1080,6 +1080,13 @@ html {
   border-left: 4px solid var(--primary-color);
 }
 
+.contact-info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
 .contact-info h4 {
   color: var(--primary-color);
   font-size: 1.25rem;

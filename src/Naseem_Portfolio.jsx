@@ -251,19 +251,15 @@ function Contact() {
         <p>Let's connect and discuss opportunities</p>
       </div>
       <div className="contact-page">
-        <div className="contact-header">
-          <div>
-            <h3>Contact Me</h3>
-            <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
-          </div>
-          <div className="contact-linkedin">
-            <a className="contact-action" href="https://www.linkedin.com/in/muhammadmubashir-naseem-813910323/" target="_blank" rel="noopener noreferrer">LinkedIn Profile ↗</a>
-          </div>
-        </div>
+        <h3>Contact Me</h3>
+        <p>I'm always interested in new opportunities and collaborations. Feel free to reach out!</p>
         
         <div className="contact-content">
           <div className="contact-info">
-            <h4>📧 Email</h4>
+            <div className="contact-info-header">
+              <h4>📧 Email</h4>
+              <a className="contact-action" href="https://www.linkedin.com/in/muhammadmubashir-naseem-813910323/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            </div>
             <p>mubashirnaseem18@gmail.com</p>
             
             <h4>📍 Location</h4>
