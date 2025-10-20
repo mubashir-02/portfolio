@@ -199,12 +199,12 @@ function ProjectCard({ project }) {
         ))}
       </div>
       <div className="project-links">
-        {project.demo ? (
+        {project.demo && project.demo.trim() !== '' ? (
           <a href={project.demo} target="_blank" rel="noopener noreferrer">Demo</a>
         ) : (
           <span className="coming-soon">Coming Soon</span>
         )}
-        {project.repo ? (
+        {project.repo && project.repo.trim() !== '' ? (
           <a href={project.repo} target="_blank" rel="noopener noreferrer">GitHub</a>
         ) : (
           <span className="private-repo">Private Repo</span>
