@@ -18,16 +18,16 @@ const PROJECTS = [
     title: 'Lost and Found', 
     desc: 'Community-driven platform for posting lost items with interactive features for claiming and commenting.', 
     tech: ['JavaScript', 'Node.js', 'Express.js', 'EJS', 'MongoDB', 'CSS'], 
-    demo: '#', 
-    repo: '#' 
+    demo: 'https://back2u-jo9u.onrender.com/', 
+    repo: 'https://github.com/mubashir-02/Back2U' 
   },
   { 
     id: 3, 
     title: 'Personal Meal Tracker & AI Diet Coach', 
     desc: 'Web app providing instant nutrition facts for meals with AI chatbot for personalized diet guidance.', 
     tech: ['JavaScript', 'HTML', 'CSS', 'API Integration'], 
-    demo: '#', 
-    repo: '#' 
+    demo: 'nutritrackai-puce.vercel.app', 
+    repo: 'https://github.com/mubashir-02/NutriTrack-AI' 
   },
   
 ];
