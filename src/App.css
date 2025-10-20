@@ -1040,8 +1040,14 @@ html {
   border: 1px solid var(--border-light);
 }
 
-.contact-page h3 {
-  text-align: center;
+.contact-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.contact-header h3 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   color: var(--text-primary);
@@ -1049,12 +1055,15 @@ html {
   letter-spacing: -0.025em;
 }
 
-.contact-page p {
-  text-align: center;
+.contact-header p {
   color: var(--text-secondary);
-  margin-bottom: 2rem;
   font-size: 1.125rem;
   line-height: 1.6;
+  margin: 0;
+}
+
+.contact-linkedin {
+  margin-top: 1rem;
 }
 
 .contact-content {
