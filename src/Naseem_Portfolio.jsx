@@ -10,8 +10,8 @@ const PROJECTS = [
     title: 'WanderLust', 
     desc: 'Full-stack travel listing app with secure authentication and CRUD operations for listings and reviews.', 
     tech: ['Node.js', 'Express.js', 'MongoDB', 'EJS', 'Passport.js'], 
-    demo: '#', 
-    repo: '#' 
+    demo: '', 
+    repo: '' 
   },
   { 
     id: 2, 
