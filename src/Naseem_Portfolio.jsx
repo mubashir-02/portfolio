@@ -5,9 +5,38 @@ import './App.css';
 import ScrollReveal from "scrollreveal";
 // Sample data
 const PROJECTS = [
-  { id: 1, title: 'College Hub', desc: 'A student portal with notes & projects.', tech: ['React', 'Router', 'LocalStorage'], demo: '#', repo: '#' },
-  { id: 2, title: 'Disk Scheduler', desc: 'Visualizes FCFS, SSTF, SCAN.', tech: ['Java', 'JS'], demo: '#', repo: '#' },
-  { id: 3, title: 'Tic-Tac-Toe', desc: 'Turn-based game demo.', tech: ['C', 'React'], demo: '#', repo: '#' }
+  { 
+    id: 1, 
+    title: 'WanderLust', 
+    desc: 'Full-stack travel listing app with secure authentication using Passport.js and Express-Session. Implemented CRUD for listings and reviews with Joi validation and custom error handling.', 
+    tech: ['Node.js', 'Express.js', 'MongoDB', 'EJS', 'Passport.js'], 
+    demo: '#', 
+    repo: '#' 
+  },
+  { 
+    id: 2, 
+    title: 'Lost and Found', 
+    desc: 'Full-stack platform where users can post lost items with descriptions and images. Users can comment on or claim found items, creating an interactive community-driven system.', 
+    tech: ['JavaScript', 'Node.js', 'Express.js', 'EJS', 'MongoDB', 'CSS'], 
+    demo: '#', 
+    repo: '#' 
+  },
+  { 
+    id: 3, 
+    title: 'Personal Meal Tracker & AI Diet Coach', 
+    desc: 'Web application to log meals with calories, protein, fat, images, and notes. Integrated CalorieNinjas API for nutrition data and Unsplash API for food images with AI diet coach.', 
+    tech: ['JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'API Integration'], 
+    demo: '#', 
+    repo: '#' 
+  },
+  { 
+    id: 4, 
+    title: 'CRUD Operations', 
+    desc: 'Implemented full CRUD operations (Create, Read, Update, Delete) on MongoDB collections using Node.js and Express.js with efficient data management and schema design.', 
+    tech: ['Node.js', 'Express.js', 'MongoDB', 'JavaScript'], 
+    demo: '#', 
+    repo: '#' 
+  }
 ];
 
 const SKILLS = {
