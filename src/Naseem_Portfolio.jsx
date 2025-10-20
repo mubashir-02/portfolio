@@ -26,7 +26,7 @@ const PROJECTS = [
     title: 'Personal Meal Tracker & AI Diet Coach', 
     desc: 'Web app providing instant nutrition facts for meals with AI chatbot for personalized diet guidance.', 
     tech: ['JavaScript', 'HTML', 'CSS', 'API Integration'], 
-      demo: 'https://nutritrackai-puce.vercel.app',
+    demo: 'https://nutritrackai-puce.vercel.app',
     repo: 'https://github.com/mubashir-02/NutriTrack-AI' 
   },
   
@@ -199,8 +199,8 @@ function ProjectCard({ project }) {
         ))}
       </div>
       <div className="project-links">
-        <a href={project.demo} target="_blank" rel="noreferrer">Demo</a>
-        <a href={project.repo} target="_blank" rel="noreferrer">GitHub</a>
+        <a href={project.demo} target="_blank" rel="noopener noreferrer">Demo</a>
+        <a href={project.repo} target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>
   );
