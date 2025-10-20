@@ -243,7 +243,6 @@ function Projects() {
 function Contact() {
   const [form,setForm]=useState({name:'',email:'',message:''});
   const handleChange=e=>setForm({...form,[e.target.name]:e.target.value});
-  const handleSubmit=e=>{e.preventDefault(); alert("This form is demo only.");};
   console.log('Contact component rendering');
   return (
     <div className="page-container">
@@ -258,7 +257,8 @@ function Contact() {
         <div className="contact-content">
           <div className="contact-info">
             <h4>📧 Email</h4>
-            <p>mubashirnaseem18@gmail.com</p>
+            <p><a href="mailto:mubashirnaseem18@gmail.com">mubashirnaseem18@gmail.com</a></p>
+            <p><a href="https://www.linkedin.com/in/muhammadmubashir-naseem-813910323/" target="_blank" rel="noopener noreferrer">LinkedIn Profile ↗</a></p>
             
             <h4>📍 Location</h4>
             <p>Chennai, India</p>
@@ -269,10 +269,13 @@ function Contact() {
           
           <div className="contact-form-section">
             <h4>Send me a message</h4>
-            <form onSubmit={handleSubmit} className="contact-form">
+            <form action="https://formsubmit.co/mubashirnaseem18@gmail.com" method="POST" className="contact-form">
               <input name="name" value={form.name} onChange={handleChange} placeholder="Your Name" required/>
               <input name="email" value={form.email} onChange={handleChange} placeholder="Your Email" type="email" required/>
               <textarea name="message" value={form.message} onChange={handleChange} placeholder="Your Message" rows="5" required/>
+              <input type="hidden" name="_subject" value="New portfolio message" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_next" value="/contact" />
               <button type="submit">Send Message</button>
             </form>
           </div>
