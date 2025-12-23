@@ -178,7 +178,7 @@ function Skills() {
                   {skill.name === 'VS Code' && '💻'}
                 </div>
                 <span className="skill-name">{skill.name}</span>
-                <div className="skill-level">{skill.level}%</div>
+                
               </div>
             ))}
           </div>
