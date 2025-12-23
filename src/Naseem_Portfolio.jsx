@@ -91,7 +91,7 @@ function Hero() {
           </div>
         </div>
         <div>
-          <img src="/img.jpeg" alt="avatar" className="hero-img"/>
+          <img src="/img2.jpeg" alt="avatar" className="hero-img"/>
         </div>
       </div>
     </section>
