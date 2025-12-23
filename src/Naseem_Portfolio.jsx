@@ -33,9 +33,9 @@ const PROJECTS = [
 ];
 
 const SKILLS = {
-  web: [ { name: 'HTML5', level: 90 }, { name: 'CSS3', level: 88 }, { name: 'JavaScript', level: 85 }, ],
-  backend: [ { name: 'Java', level: 75 }, { name: 'C', level: 70 } ,{name:"mongoDB",level:75},{name:"Node.js",level:80},{name:"Express.js",level:85}],
-  tools: [ { name: 'Git', level: 80 }, { name: 'VS Code', level: 85 } ]
+  web: [ { name: 'HTML5' }, { name: 'CSS3' }, { name: 'JavaScript' } ],
+  backend: [ { name: 'Java' }, { name: 'C' } ,{name:"mongoDB"},{name:"Node.js"},{name:"Express.js"}],
+  tools: [ { name: 'Git' }, { name: 'VS Code' } ]
 };
 
 // --- Components ---
@@ -120,15 +120,15 @@ function About() {
           
           <div className="about-highlights">
             <div className="highlight-item">
-              <h3>🎓 Education</h3>
+              <h3> Education</h3>
               <p>Bachelor of Technology in Computer Science<br/>SRM Institute of Science and Technology</p>
             </div>
             <div className="highlight-item">
-              <h3>💻 Technical Skills</h3>
+              <h3> Technical Skills</h3>
               <p>Full-Stack Web Development<br/>Frontend & Backend Technologies</p>
             </div>
             <div className="highlight-item">
-              <h3>🚀 Career Objective</h3>
+              <h3> Career Objective</h3>
               <p>Aspiring Full-Stack Developer<br/>Seeking Professional Opportunities</p>
             </div>
           </div>
